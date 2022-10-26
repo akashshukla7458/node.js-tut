@@ -1,0 +1,3 @@
+npm i npm  = to install npm packages globally
+npm init --y = to intialize new package.json or write to exisiting package.json
+lodash= Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
