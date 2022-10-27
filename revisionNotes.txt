@@ -1,0 +1,20 @@
+1. npm i npm  = to install npm packages globally
+
+2. npm init --y = to intialize new package.json or write to exisiting package.json
+
+3. lodash= Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+
+4. if remote access is denied in github update remote url by:
+      git remote set-url origin https://github.com/akashshukla7458/node.js-tut.git
+
+5. to push code to github:
+ git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin main
+
+6. The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
+refer https://course-api.com/slides/    for slides.
+
+7. async fn will be offloaded in event loop and when time is to invoke we will callback
