@@ -1,4 +1,6 @@
 1. npm i npm  = to install npm packages globally
+   required dependecies -
+   nodemon  lodash
 
 2. npm init --y = to intialize new package.json or write to exisiting package.json
 
@@ -17,4 +19,24 @@ git push -u -f origin main
 6. The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
 refer https://course-api.com/slides/    for slides.
 
-7. async fn will be offloaded in event loop and when time is to invoke we will callback
+7. async fn will be offloaded in event loop and when time is to invoke we will callback.
+
+8. Streams -They are data-handling method and are used to read or write input into output sequentially. What makes streams unique, is that instead of a program reading a file into memory all at once like in the traditional way, streams read chunks of data piece by piece, processing its content without keeping it all in memory.
+  
+9. HTTP Methods:
+   GET: Read data
+   POST : Insert data
+   PUT : update data
+   DELETE: Delete data
+
+10. * To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express.
+ * express takes care of all static files unlike http we dont need to create path for each file again n again
+
+11. * Path is the route at which the request will run.
+  * The res.sendFile() function basically transfers the file at the given path and it sets the Content-Type response HTTP header field based on the filename extension. 
+  *Server-side rendering (SSR) is a popular technique for rendering a normally client-side only single page app (SPA) on the server and then sending a fully rendered page to the client. The client’s JavaScript bundle can then take over and the SPA can operate as normal. 
+
+  12. * http://localhost:5000/api/v1/query?search=a
+  13. order matters in middleware
+  14. next() : It will run or execute the code after all the middleware function is finished.
+  15. The express.urlencoded() function is a built-in middleware function in Express. It parses incoming requests with urlencoded payloads and is based on body-parser.
